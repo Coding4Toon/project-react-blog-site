@@ -1,6 +1,26 @@
+# Project
+As with every web framework, we need to learn the basics of navigation and navigating within different pages in React.
+React is a Single Page Application which means that it will load 1 HTML file and React will change the elements on the page without having to load another HTML file. As such, navigating in React will be slightly different than usual.
+
+In this project, we will be learning how to navigate between pages by making a blog site with multiple pages. This web application will consist of the main view, which will show all of the blogs we have. Since this is a standalone application, we will store our blog data within our project. 
+
+By the end of this project, you will be able to:
+- Build a fully functioning multi-page application
+- Manage data with local fetching
+- Build your own profile page with React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Start
+
+Initialise a new React Project.
+### `npx create-react-app blog-site`
+
+Install React Router Package into our project. This package will help us to handle the routing and URL of our web application.
+### `npm install react-router-dom`
+
 
 ## Available Scripts
 
